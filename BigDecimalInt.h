@@ -37,4 +37,4 @@ public:
 };
 ostream& operator << (ostream& out, BigDecimalInt b);
 
-#endif // BIGDECIMALINT_H
+#endif /// BIGDECIMALINT_H
