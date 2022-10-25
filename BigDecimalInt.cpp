@@ -648,7 +648,7 @@ bool BigDecimalInt:: validation(string s)
     return regex_match (s, decStr_format);
 }
 
-// function to return the sign
+/// function to return the sign
 int BigDecimalInt:: sign()
 {
     if(decStr[0]=='-')
